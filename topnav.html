@@ -1,0 +1,32 @@
+  <div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+      </div>
+      <h1><a href="index.php" class="logo"><?php echo "Welcome:, " . $_SESSION['username'] . "!"; ?></a></h1>
+      <ul class="list-unstyled components mb-5">
+        <li class="active">
+          <a href="index.php"><span class="fa fa-home mr-3"></span> Homepage</a>
+        </li>
+        <li>
+          <a href="phase.php"><span class="fa fa-random mr-3"></span> Phases</a>
+        </li>
+        <li>
+          <a href="blacklist.php"><span class="fa fa-user-times mr-3"></span> Blacklist Status</a>
+        </li>
+        <li>
+          <a href="check.php"><span class="fa fa-eye mr-3"></span> Check Status</a>
+        </li>
+        <li>
+          <a href="#"><span class="fa fa-address-book mr-3"></span> Contact</a>
+        </li>
+   
+          <li>
+          <a href="logout.php"><span class="fa fa-sign-out mr-3"></span> Logout</a>
+        </li>
+      </ul>
+
+    </nav>
